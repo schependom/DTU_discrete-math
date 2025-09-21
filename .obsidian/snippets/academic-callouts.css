@@ -16,6 +16,16 @@
   --callout-icon: lucide-book-open;
 }
 
+.callout[data-callout="fact"] {
+  --callout-color: 142, 249, 255;
+  --callout-icon: lucide-gavel;
+}
+
+.callout[data-callout="proposition"] {
+  --callout-color: 255, 102, 204;
+  --callout-icon: lucide-balance-scale;
+}
+
 /* 
 A corollary is a statement that follows directly from a theorem or a definition.
 It's often considered a "bonus" result that is easy to derive once the main result is known.
@@ -28,6 +38,16 @@ It's often considered a "bonus" result that is easy to derive once the main resu
 .callout[data-callout="lemma"] {
   --callout-color: 153, 51, 255;
   --callout-icon: lucide-cog;
+}
+
+.callout[data-callout="notation"] {
+  --callout-color: 236, 142, 189; /* A vibrant pink color */
+  --callout-icon: lucide-pencil-line;
+}
+
+.callout[data-callout="deduction"] {
+  --callout-color: 240, 240, 240;
+  --callout-icon: lucide-arrow-big-right-dash;
 }
 
 /* Optional: Style the title font to be bolder or different */

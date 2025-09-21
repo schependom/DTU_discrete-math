@@ -17,7 +17,7 @@
 }
 
 .callout[data-callout="fact"] {
-  --callout-color: 142, 249, 255;
+  --callout-color: 105, 178, 207;
   --callout-icon: lucide-gavel;
 }
 
@@ -31,7 +31,7 @@ A corollary is a statement that follows directly from a theorem or a definition.
 It's often considered a "bonus" result that is easy to derive once the main result is known.
 */
 .callout[data-callout="corollary"] {
-  --callout-color: 167, 228, 34;
+  --callout-color: 123, 196, 104;
   --callout-icon: lucide-fast-forward;
 }
 
@@ -46,7 +46,7 @@ It's often considered a "bonus" result that is easy to derive once the main resu
 }
 
 .callout[data-callout="deduction"] {
-  --callout-color: 240, 240, 240;
+  --callout-color: 133, 133, 133; /* A bright yellow color */
   --callout-icon: lucide-arrow-big-right-dash;
 }
 

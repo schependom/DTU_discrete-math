@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "40e60411b6588635",
+        "id": "e511bf083c692262",
         "type": "tabs",
         "children": [
           {
-            "id": "ac2cc2a5daf200fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Groups.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Groups"
-            }
-          },
-          {
-            "id": "3c1606e88d85c8ac",
+            "id": "c135b5f7b3361da2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +21,7 @@
               "title": "4. Subgroups and cosets"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,10 +169,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "3c1606e88d85c8ac",
+  "active": "c135b5f7b3361da2",
   "lastOpenFiles": [
-    "3. Groups.md",
+    "images/4/cosets-partition.jpg",
     "4. Subgroups and cosets.md",
+    "images/4",
+    "3. Groups.md",
     "1 - Equivalence relations.md",
     "images/1/eea.jpg",
     "PDF/3. Groups.pdf",
@@ -201,7 +188,6 @@
     "images/1/bea.jpg",
     "images/1",
     "images",
-    "Course Material.pdf",
     "README.md",
     "Example.md"
   ]

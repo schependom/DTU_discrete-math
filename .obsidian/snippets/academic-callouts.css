@@ -50,6 +50,11 @@ It's often considered a "bonus" result that is easy to derive once the main resu
   --callout-icon: lucide-arrow-big-right-dash;
 }
 
+.callout[data-callout="exercise"] {
+  --callout-color: 139, 84, 32;
+  --callout-icon: lucide-notebook-pen ;
+}
+
 /* Optional: Style the title font to be bolder or different */
 .callout[data-callout="theorem"] .callout-title,
 .callout[data-callout="definition"] .callout-title,

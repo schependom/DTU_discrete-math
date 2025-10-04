@@ -87,6 +87,15 @@ Proof: Let $b \in [a]_{\equiv \pmod{n}}$. Then $a \equiv b \pmod{n}$, which mean
 >     - $[a]_\sim \cap [b]_\sim = \emptyset$
 > 4. $\forall a,b \in A : a \sim b \iff [a]_\sim = [b]_\sim$.
 
+We see that the **equivalence classes form a partition of $A$**:
+
+> A family of sets $A_i$, $i \in I$ is called a **partition** of $A$, if $A = \bigcup_{i \in I} A_i$, none of the sets $A_i$ is empty, and for any distinct $i,j \in I$ the sets $A_i$ and $A_j$ are disjoint.
+> In other words: a family of sets $A_i$, $i \in I$ is a partition of $A$, if for each $a \in A$, there exists exactly one set $A_i$ in the family containing $a$.
+
+![[images/1/partition.jpg]]
+
+One also says that the set $A$ is **partitioned into equivalence classes**. The word _partitioned_ (= divided into parts) is appropriate, since the set $A$ is divided into mutually disjoint subsets, namely the various equivalence classes.
+
 > [!corollary] Corollary 1.3.4: Properties of congruence modulo an integer (p21)
 >
 > 1. $\forall a \in \Z$, $a \in a + n\Z$.

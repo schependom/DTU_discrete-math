@@ -11,10 +11,14 @@
             "id": "5b9db905adeeabf5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "5. Group actions and Burnside's Lemma.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "5. Group actions and Burnside's Lemma"
             }
           }
         ]
@@ -167,6 +171,9 @@
   },
   "active": "5b9db905adeeabf5",
   "lastOpenFiles": [
+    "1. Equivalence relations.md",
+    "5. Group actions and Burnside's Lemma.md",
+    "5. Group actions and Bunrside's Lemma.md",
     "Untitled.md",
     "3. Groups.md",
     "4. Subgroups and cosets.md",

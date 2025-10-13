@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7eddae3ed68ed605",
+        "id": "9b4c9c0516c11f79",
         "type": "tabs",
         "children": [
           {
-            "id": "5b9db905adeeabf5",
+            "id": "6d5f339dfd20372f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,14 +169,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "5b9db905adeeabf5",
+  "active": "6d5f339dfd20372f",
   "lastOpenFiles": [
-    "1. Equivalence relations.md",
+    "4. Subgroups and cosets.md",
     "5. Group actions and Burnside's Lemma.md",
+    "3. Groups.md",
+    "1. Equivalence relations.md",
     "5. Group actions and Bunrside's Lemma.md",
     "Untitled.md",
-    "3. Groups.md",
-    "4. Subgroups and cosets.md",
     "1 - Equivalence relations.md",
     "2. Permutations.md",
     "images/3/cn-in-dn.jpg",

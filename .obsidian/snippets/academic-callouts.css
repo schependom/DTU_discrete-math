@@ -55,6 +55,11 @@ It's often considered a "bonus" result that is easy to derive once the main resu
   --callout-icon: lucide-notebook-pen ;
 }
 
+.callout[data-callout="exam"] {
+  --callout-color: 255, 69, 0; /* A bright red color */
+  --callout-icon: lucide-clipboard-check;
+}
+
 /* Optional: Style the title font to be bolder or different */
 .callout[data-callout="theorem"] .callout-title,
 .callout[data-callout="definition"] .callout-title,

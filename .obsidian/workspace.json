@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9. Finite fields.md",
+                "file": "6. Maps between groups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Finite fields"
+              "title": "6. Maps between groups"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "quotient ring",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,15 +171,26 @@
   },
   "active": "cde956164fc38953",
   "lastOpenFiles": [
-    "3. Groups.md",
-    "9. Finite fields.md",
-    "8. The theory of ideals.md",
-    "7. Rings.md",
-    "6. Maps between groups.md",
-    "4. Subgroups and cosets.md",
-    "2. Permutations.md",
-    "1. Equivalence relations.md",
+    "Exam/exam.synctex(busy)",
+    "Exam/pdflatex23674.fls",
+    "Exam/__latexindent_temp_exam.tex",
+    "Exam/pdflatex23449.fls",
+    "Exam/pdflatex22757.fls",
+    "Exam/pdflatex22227.fls",
+    "Exam/pdflatex21896.fls",
+    "Exam/pdflatex21538.fls",
+    "Exam/pdflatex21537.fls",
+    "Exam/pdflatex21413.fls",
+    "Exam/pdflatex21260.fls",
     "5. Group actions and Burnside's Lemma.md",
+    "4. Subgroups and cosets.md",
+    "8. The theory of ideals.md",
+    "9. Finite fields.md",
+    "7. Rings.md",
+    "3. Groups.md",
+    "1. Equivalence relations.md",
+    "6. Maps between groups.md",
+    "2. Permutations.md",
     "images/7/division-algorithm.jpg",
     "images/7/Screenshot 2025-11-01 at 17.45.57.jpg",
     "2025-11-01.md",
@@ -188,23 +199,13 @@
     "images/6/Screenshot 2025-10-28 at 20.57.56.jpg",
     "images/7/hierarchy.jpg",
     "images/7/Screenshot 2025-10-28 at 20.50.11.jpg",
-    "images/7",
     "images/6/multiplication-table.jpg",
     "images/6/Screenshot 2025-10-13 at 11.03.09.jpg",
-    "images/6",
     "5. Group actions and Bunrside's Lemma.md",
     "Untitled.md",
     "1 - Equivalence relations.md",
     "images/3/cn-in-dn.jpg",
     "images/3/Screenshot 2025-10-04 at 14.24.44.jpg",
-    "images/3",
-    "images/4",
-    "PDF/3. Groups.pdf",
-    "PDF/2. Permutations.pdf",
-    "PDF/1 - Equivalence relations.pdf",
-    "PDF",
-    "3. Groups.pdf",
-    "1 - Equivalence relations.pdf",
     "README.md",
     "Example.md"
   ]

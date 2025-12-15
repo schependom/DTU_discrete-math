@@ -79,6 +79,27 @@
 
 \maketitle
 
+\section*{Introduction}
+
+I created this document based on previous exams of the course Discrete Mathematics 2: Algebra.
+It contains \textit{fully complete} answers to frequently (or always) asked (sub)questions in the exam.
+The answers are derived from my own lecture notes, exercises and the course material \cite{course_notes}.
+
+Per question, I tried collecting every single type of subquestion that might be asked.
+Note that this may lead to repetitive and/or unrelated answers within each question.
+On the actual exam there are less subquestions, of course.
+Also note that Question 2 about groups differs from year to year, so it is rather hard to predict what will be asked.
+Hence, this question does not contain many subquestions, nor answers.
+
+Finally note that this document was created in the Fall of 2025; course materials may evolve in future semesters.
+Also, the answers are not guaranteed to be correct.
+If you identify any errors, please contact the author, Vincent Van Schependom.
+
+\bibliography{references}
+\bibliographystyle{unsrt}
+
+\newpage
+
 \begin{question}
     Let $(S_5, \circ)$ be the group of permutations of $A = \{1, 2, 3, 4, 5\}$. Let $f$ denote the permutation
     $$f := \begin{pmatrix}
@@ -161,7 +182,6 @@
                   \item $m = 2$. Then $f$ is composition of 2-cycles and hence its order is 2.
               \end{itemize}
               We conclude that the order of $f$ is at most 6.
-              We conclude that the order of f is at most 6.
     \end{enumerate}
 \end{answer}
 
@@ -220,7 +240,7 @@ and the result follows, as $r = i \bmod m$.
               Assume there exists a positive integer $m < n$ such that $\psi(g)^m = e_{2}$.
               Then, by similar reasoning as above, we have $\psi(g^{m}) = e_{2}$.
 
-              Now we see that $$\psi \text{ is bijective} \quad \implies \quad \psi \text{ is injective } \quad \stackrel{\text{Lemma 6.1.8}}{\implies} \quad \ker(\psi) = \{ e_{1} \} \quad \implies \quad g^{m} = e_{1}$$But we assumed that $\ord(g) = n$ and that $m<n$. This gives a contradiction, since the order is by definition the smallest positive integer such that $g^{\ord(g)} = e_{1}$.
+              Now we see that $$\psi \text{ is bijective} \quad \implies \quad \psi \text{ is injective } \quad \stackrel{\text{Lemma 6.1.8}}{\iff} \quad \ker(\psi) = \{ e_{1} \} \quad \implies \quad g^{m} = e_{1}$$But we assumed that $\ord(g) = n$ and that $m<n$. This gives a contradiction, since the order is by definition the smallest positive integer such that $g^{\ord(g)} = e_{1}$.
               Therefore, no such $m$ can exist and we conclude that $\ord(\psi(g)) = n$.
 
     \end{enumerate}
@@ -420,7 +440,7 @@ and the result follows, as $r = i \bmod m$.
               We start with the $p-1$ constant multiples of each of the proper monic factors $h_i(X)$ ($i=1,\ldots,k$) of $f(X)$.
               We thereby find $(p-1) \cdot k$ more distinct zero-divisors in $R$ on top of the $k$ zero-divisors we found above.
 
-              Now consider the $p-1$ constant multiples of each of the proper monic factors $h_i(X)$ ($i=1,\ldots,k$) of $f(X)$.
+              Now also consider the non-constant multiples of each of the proper monic factors $h_i(X)$ ($i=1,\ldots,k$) of $f(X)$.
 
         \item The given coset $X + 3 + \gen{f(X)} =: g(X) + \gen{f(X)}$ is a unit of $R$ if
               and only if $\deg(\gcd[f(X), g(X)]) = 0$ by Proposition 9.1.2. From the proof of this proposition,
@@ -433,16 +453,15 @@ and the result follows, as $r = i \bmod m$.
                           f(X) & 1 & 0 \\
                           g(X) & 0 & 1
                       \end{array}\right] \quad \rightarrow \quad \ldots \quad \rightarrow \quad \left[\begin{array}{c | c c}
-                          c      & s(X)   & r(X)   \\
-                          \ldots & \ldots & \ldots
+                          c      & c \cdot s(X) & c \cdot r(X) \\
+                          \ldots & \ldots       & \ldots
                       \end{array}\right]$$
               The identity in row 1 is almost the one we are looking for. To ensure uniqueness,
               we now make the GCD monic by multiplying the identity in row 1 by $c^{-1}$.
 
-        \item Denote $\F_q = \F_{p^q} = \F_5[X]/\gen{f(X)}$.
-              Because $f(X)$ is irreducible, by Theorem 9.3.2, $\F_q$ is a field with $q = p^d$ elements.
-
-              Because of Theorem 9.4.1, we know that the finite field $\F_q$ with $q = p^d$ for prime $p$ and $d \geq 1$
+        \item Denote $\F_q = \F_{p^q} = \F_p[X]/\gen{f(X)}$.
+              \textbf{If} $f(X)$ is irreducible, by Theorem 9.3.2, $\F_q$ is a field with $q = p^d$ elements.
+              Because of Theorem 9.4.1, we know that this \textit{finite field} $\F_q$ with $q = p^d$ for prime $p$ and $d \geq 1$
               has \textit{at least one primitive element} $\alpha \in \F_q$. In this case, $(\F_q^*, \cdot)$ is a
               \textit{cyclic} group of order $$\ord(\F_q^*) = |\F_q^*| = \ord(\alpha) = q-1$$ generated by a primitive element $\alpha$:
               $$\F_q^* = \{\alpha^0, \alpha^1, \alpha^2, \ldots, \alpha^{q-2}\}$$
@@ -474,23 +493,25 @@ and the result follows, as $r = i \bmod m$.
                   \item Units are elements with $\deg(\gcd[f(X), g(X)]) = 0$.
                   \item Zero-divisors are elements with $0 < \deg(\gcd[f(X), g(X)]) < \deg(f(X))$.
               \end{itemize}
-              We conclude that a non-zero coset $u = g(X) + \gen{f(X)}$ in standard form (with thus $g(X) \neq 0$ and $\deg(g(X)) < \deg(f(X))$)
-              is a zero-divisor if and only if $\deg(\gcd[g(X), f(X)]) > 0$.
 
               We can thus calculate the number of units $N_u$ by \textbf{first counting the number of zero-divisors} $N_z$.
-              We know that the total number of elements in $R$ is $|R| = p^d = 5^4 = 625$.
+              We know that the total number of elements in $R$ is $|R| = p^d = 5^3 = 125$.
               The ring is partitioned into units, zero-divisors, and the zero element:
               $$|R| = N_u + N_z + 1$$
 
-              To find $N_z$, we analyze the factorization of $f(X)$ in $\mathbb{Z}_5[X]$ to determine the conditions under which $\deg(\gcd[f(X), g(X)]) > 0$.
-
+              To find $N_z$, we analyze the factorization of $f(X)$ in $\mathbb{Z}_5[X]$ to determine
+              how many zero divisors there are.
               We find the following factorization into irreducible polynomials in $\mathbb{Z}_5[X]$:
               $$ X^3 + X + 3 = (X+4)(X^2 + X + 2) $$
               The quadratic factor $X^2 + X + 2$ is irreducible in $\mathbb{Z}_5$ because
               it has no roots (checking values $0, 1, 2, 3, 4$ yields no zeros). $(X+4)$ is
               a factor of degree $1$, which is always irreducible.
 
-              For a non-zero coset $g(X) + \gen{f(X)}$, $\gcd[f(X), g(X)]$ is either $X+4$
+              Above, we found that a non-zero coset $g(X) + \gen{f(X)}$ in standard form
+              (with thus $g(X) \neq 0$ and $\deg(g(X)) < \deg(f(X))$) is a zero-divisor if and only if $\deg(\gcd[g(X), f(X)]) > 0$.
+              Furthermore, it must be a multiple of a proper (monic) factor of $f(X)$.
+
+              Thus, for a zero-divisor $g(X) + \gen{f(X)}$, $\gcd[f(X), g(X)]$ is either $X+4$
               or $X^2+X+2$, because the GCD is \textit{unique} if it's monic.
               We count the possibilities for $g(X)$ in these two disjoint cases:
 

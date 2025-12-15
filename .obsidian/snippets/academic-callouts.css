@@ -5,6 +5,10 @@
  * definitions, corollaries, and lemmas.
  */
 
+.callout {
+  page-break-inside: avoid;
+}
+
 
 .callout[data-callout="theorem"] {
   --callout-color: 255, 170, 0;

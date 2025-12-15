@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a09fc8acbf28469d",
+        "id": "b93265b6402ce8e9",
         "type": "tabs",
         "children": [
           {
-            "id": "cde956164fc38953",
+            "id": "3d875e0b388bad06",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6. Maps between groups.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "6. Maps between groups"
+              "title": "New tab"
             }
           }
         ]
@@ -169,28 +165,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "cde956164fc38953",
+  "active": "3d875e0b388bad06",
   "lastOpenFiles": [
-    "Exam/exam.synctex(busy)",
-    "Exam/pdflatex23674.fls",
-    "Exam/__latexindent_temp_exam.tex",
-    "Exam/pdflatex23449.fls",
-    "Exam/pdflatex22757.fls",
-    "Exam/pdflatex22227.fls",
-    "Exam/pdflatex21896.fls",
-    "Exam/pdflatex21538.fls",
-    "Exam/pdflatex21537.fls",
-    "Exam/pdflatex21413.fls",
-    "Exam/pdflatex21260.fls",
-    "5. Group actions and Burnside's Lemma.md",
-    "4. Subgroups and cosets.md",
-    "8. The theory of ideals.md",
     "9. Finite fields.md",
+    "PDF/9. Finite fields.pdf",
+    "8. The theory of ideals.md",
+    "PDF/8. The theory of ideals.pdf",
     "7. Rings.md",
+    "PDF/7. Rings.pdf",
+    "6. Maps between groups.md",
+    "PDF/6. Maps between groups.pdf",
+    "5. Group actions and Burnside's Lemma.md",
+    "PDF/5. Group actions and Burnside's Lemma.pdf",
+    "4. Subgroups and cosets.md",
+    "PDF/4. Subgroups and cosets.pdf",
     "3. Groups.md",
     "1. Equivalence relations.md",
-    "6. Maps between groups.md",
     "2. Permutations.md",
+    "PDF/1. Equivalence relations.pdf",
+    "Exam/__latexindent_temp_exam.tex",
+    "Exam/exam.synctex(busy)",
+    "Exam/pdflatex35217.fls",
     "images/7/division-algorithm.jpg",
     "images/7/Screenshot 2025-11-01 at 17.45.57.jpg",
     "2025-11-01.md",
